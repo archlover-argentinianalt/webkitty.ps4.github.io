@@ -4,7 +4,7 @@
 
 <img src="includes/assets/icons/webkitty.svg" width="220" alt="WebKitty Logo">
 
-**A modular collection of WebKit-based exploit chains for the PlayStation 4.**
+**A modular collection of WebKit-based exploit chains for the PlayStation 4...**
 
 *(Formerly known as PSFree Enhanced)*
 
