@@ -225,7 +225,7 @@ function load_Linux(name, payloadId) {
         size = name.slice(sliceIndex).replace(" ", "-").toLowerCase();
     } else {
         sliceIndex = -7;
-        size = payloadId.slice(sliceIndex).replace("x", "-").toLowerCase();
+        size = "-" + payloadId.slice(sliceIndex).replace("x", "-").toLowerCase();
     }
 
     Loadpayloadlocal("./includes/payloads/Linux/linux" + size + ".elf", name);
