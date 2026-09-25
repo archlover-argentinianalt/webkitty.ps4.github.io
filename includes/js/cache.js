@@ -10,7 +10,7 @@ window.addEventListener('load', function () {
     // index -> cache.html -> index -> ... El flujo es online: payloads y exploit se sirven por red y
     // el loader va directo al PayLoader local (127.0.0.1:9090). Para re-habilitar en un hosting con
     // AppCache de mismo origen: cambiar coverAppCacheRedirect a true.
-    var coverAppCacheRedirect = true; // [fork]
+    var coverAppCacheRedirect = false; // [fork]
     if (coverAppCacheRedirect && isPS4 && (!window.applicationCache || window.applicationCache.status === window.applicationCache.UNCACHED) && !devMode) {
         // Not cached! Redirecting...
         window.location.href = './cache.html';
